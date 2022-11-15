@@ -1,4 +1,3 @@
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -8,13 +7,14 @@
 .logo {
   width: 228px;
   height: 32px;
-  margin-top: 30px;
+  margin: 0;
 }
 .logo_place_header {
   display: flex;
   position: absolute;
   top: 0;
   margin-left: 64px;
+  margin-top: 30px;
 }
 
 .header {
@@ -37,9 +37,9 @@
 .header__subtitle {
   position: absolute;
   width: 388px;
-  bottom: 0;
-  margin-bottom: 30px;
-  margin-left: 64px;
+  bottom: 30px;
+  left: 64px;
+  margin: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -50,6 +50,7 @@
   left: 70px;
   text-decoration: none;
   color: #2f80ed;
+  margin: 0;
 }
 .header__square-pic {
   position: absolute;
@@ -169,6 +170,7 @@
 }
 /*block feynman*/
 .feynman {
+  position: relative;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -203,10 +205,9 @@
 .feynman__link {
   position: absolute;
   align-self: flex-end;
-  margin-bottom: 0;
-  margin-top: 50vh;
-  margin-left: 0;
-  margin-right: 48px;
+  margin: 0;
+  top: 50vh;
+  right: 48px;
   width: fit-content;
   line-height: 51px;
   font-size: 36px;
@@ -225,7 +226,6 @@
   background-size: 877px;
   background-position: top 0 right -210px;
 }
-
 .section-title_theme_dark {
   width: 60%;
   line-height: 1.15;
@@ -335,6 +335,8 @@
   flex-direction: column;
   margin-top: 20px;
   margin-bottom: 16px;
+  margin-left: 0;
+  margin-right: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -343,7 +345,6 @@
   color: white;
   line-height: 30px;
   text-decoration: none;
-  font-size: 16px;
   margin: 0;
 }
 .footer__social-icon {
