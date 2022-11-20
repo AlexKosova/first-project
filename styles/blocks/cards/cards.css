@@ -1,7 +1,6 @@
 @import url(/styles/blocks/cards/__description/cadrs__description.css);
 @import url(/styles/blocks/cards/__image/cards__image.css);
 @import url(/styles/blocks/cards/__item/cards__item.css);
-@import url(/styles/blocks/cards/__title/cards__title.css);
 
 .cards {
   width: 920px;

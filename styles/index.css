@@ -11,8 +11,10 @@
 @import url(/styles/blocks/section-title/section-title.css);
 @import url(/styles/blocks/table/table.css);
 @import url(/styles/blocks/two-columns/two-columns.css);
-@import url(/styles/blocks/cards/cards.css);
 @import url(/styles/blocks/video/video.css);
 @import url(/styles/blocks/oakley/oakley.css);
 @import url(/styles/blocks/khan/khan.css);
 @import url(/styles/blocks/resources/resources.css);
+
+@import url(/styles/blocks/cards/cards.css);
+@import url(/styles/blocks/cards/__title/cards__title.css);
