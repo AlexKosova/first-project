@@ -1,0 +1,16 @@
+@import url(/styles/blocks/table/__cell/__heading/_theme/table__heading_theme_dark.css);
+@import url(/styles/blocks/table/__cell/__text/_theme/table__text_theme_dark.css);
+@import url(/styles/blocks/table/__cell/table__cell.css);
+@import url(/styles/blocks/table/__cell/_theme/table__cell_theme_dark.css);
+
+@import url(/styles/blocks/table/styles/blocks/table/_theme/table_theme_dark.css);
+
+.table {
+  display: flex;
+  width: 1100px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}

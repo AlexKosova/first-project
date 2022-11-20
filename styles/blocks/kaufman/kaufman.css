@@ -1,0 +1,12 @@
+@import url(/styles/rotation.css);
+@import url(/styles/blocks/kaufman/__triangle/kaufman__triangle.css);
+
+.kaufman {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  color: white;
+  overflow: hidden;
+  padding: 90px 0;
+}
