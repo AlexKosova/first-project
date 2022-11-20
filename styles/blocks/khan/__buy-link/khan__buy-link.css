@@ -6,7 +6,7 @@
   color: #2f80ed;
   margin: 0 0 0 48px;
   align-self: flex-start;
-  border: 1px solid rebeccapurple;
+  border: none;
 }
 
 .khan__buy-link:hover {
