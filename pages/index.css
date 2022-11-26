@@ -3,8 +3,6 @@
 
 /* animation */
 @import url(../blocks/rotation/rotation.css);
-@import url(../blocks/rotation/__kaufman-triangle/rotation__kaufman-triangle.css);
-@import url(../blocks/rotation/__header-scuare-pic/rotation__header-square-pic.css);
 
 /* description */
 @import url(../blocks/description/description.css);
@@ -32,7 +30,6 @@
 
 /* kaufman */
 @import url(../blocks/kaufman/kaufman.css);
-@import url(../rotation.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 /* logo */
